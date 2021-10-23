@@ -1,0 +1,107 @@
+body {
+  max-width: 1200px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+/* header */
+header {
+  height: 400px;
+  background-image: url(../img/firstview.jpg);
+  background-size: cover;
+  margin: 0 auto;
+}
+.firstview {
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstview h1 {
+  font-size: 40px;
+}
+
+/* About */
+.about-content {
+  width: 1000px;
+  padding: 70px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-text {
+  padding-top: 40px;
+  line-height: 24px;
+}
+.about-text span {
+  font-weight: bold;
+}
+
+/* blog */
+.blog-content {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.blog-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.blog-item {
+  width: 30%;
+  cursor: pointer;
+}
+img {
+  width: 300px;
+  padding: 35px 0 15px;
+}
+.blog-item-title {
+  font-weight: bold;
+}
+
+/* contact */
+.contact-form-title {
+  padding-bottom: 40px;
+}
+.contact-content {
+  width: 780px;
+  margin: 0 auto 70px;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+}
+.form-item-label{
+  font-weight: bold;
+  padding: 10px 0;
+  width: 260px;
+}
+.form-item-input,
+.form-item-textarea {
+  width: 500px;
+}
+.form-item-textarea {
+  height: 200px;
+}
+.btn {
+  display: flex;
+  margin: 0 150px;
+}
+.form-btn {
+  display: block;
+  margin: 30px auto 0;
+  width: 200px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.form-btn:first-of-type {
+  border: none;
+  background: #ddd;
+}
+.form-btn:last-of-type {
+  border: none;
+  background: #5bb;
+  color: #fff;
+}
